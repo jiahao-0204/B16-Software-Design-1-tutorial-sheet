@@ -12,11 +12,10 @@
  * to compute the residue of a number
  * 
  * ? ii. design flaws
- * ! problems:
- * ! 1. num and res are declared as global variables, making the code less portable. 
- * !    they should be ideally passed in as arguments
- * ! 2. the coding doesn't have indentation to improve readability 
- * ! 3. printf function doesn't exists in c++, it is a python function.
+ * 1. num and res are declared as global variables, making the code less portable. 
+ *    they should be ideally passed in as arguments
+ * 2. the coding doesn't have indentation to improve readability 
+ * 3. printf function doesn't exists in c++, it is a python function.
  * 
  * ? iii. improvement
  * see below
