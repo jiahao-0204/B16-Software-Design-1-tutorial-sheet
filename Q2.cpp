@@ -2,9 +2,11 @@
  * * Function encapsulation and side-effects
  * 
  * ? (a) Explain what are function side-effects and why should they be avoided.
- * when arguments are passed in as pointers or references, the function will gain access to variables outside its scope. 
+ * when arguments are passed in as pointers or references, or passed in as global variable, the function will gain access to 
+ * variables outside its scope. 
  * This could pose unpredictable behaviour to function caller outside. could be mitigated by adding const to the function
  * declaration
+ * must be something that is undesirable
  * 
  * ? (b) Determine what the code below does, indicate its design flaws, and improve its design and presentation.
  * 
@@ -15,7 +17,9 @@
  * 1. num and res are declared as global variables, making the code less portable. 
  *    they should be ideally passed in as arguments
  * 2. the coding doesn't have indentation to improve readability 
- * 3. printf function doesn't exists in c++, it is a python function.
+ * ! 3. ~ printf function doesn't exists in c++, it is a python function. ~
+ * 4. no check for negative number
+ * 
  * 
  * ? iii. improvement
  * see below

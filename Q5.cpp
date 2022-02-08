@@ -7,9 +7,9 @@
  * available in the recommended text or online.
  * 
  * ? (a) Design and code three constructors (using C++ or pseudo-code if you prefer):
- * i. a default constructor taking a single integer indicating the size of the vector; 
- * ii. a constructor that takes a length integer and an array of doubles to initialise the values;
- * iii. a copy constructor.
+ * ? i. a default constructor taking a single integer indicating the size of the vector; 
+ * ? ii. a constructor that takes a length integer and an array of doubles to initialise the values;
+ * ? iii. a copy constructor.
  * 
  * ? (b) Give a example usage of each. 
  * 
@@ -85,12 +85,14 @@ int main()
 
     /**
      * ? (c) 
-     * we can not change size of the array after it is initialized. 
+     * - have to take care of the memory
+     * - we can not change size of the array after it is initialized. 
      */
 
     /**
      * ? (d)
-     * we can initialize a new array with the size desired and copy the data over
+     * - a destructor
+     * - we can initialize a new array with the size desired and copy the data over
      */
 
 }

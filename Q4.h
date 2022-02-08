@@ -86,4 +86,9 @@ class World
  * world stores a vector of springs and a vector of pointers of masses. so that it can uses its springs to obtain forces.
  * it also stores the pointer of masses because a mass can be connected to multiple springs and by storing their pointers we 
  * can identify duplicates. 
+ * 
+ * 
+ * should separate functionality of spring and mass, one should not store the other. 
+ * world should have data structure to store connection between mass and spring
+ * 
  */
