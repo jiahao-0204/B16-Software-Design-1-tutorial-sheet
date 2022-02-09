@@ -17,7 +17,7 @@
  * 1. num and res are declared as global variables, making the code less portable. 
  *    they should be ideally passed in as arguments
  * 2. the coding doesn't have indentation to improve readability 
- * ! 3. ~ printf function doesn't exists in c++, it is a python function. ~
+ * ! 3. NOT TRUE - printf function doesn't exists in c++, it is a python function. 
  * 4. no check for negative number
  * 
  * 
