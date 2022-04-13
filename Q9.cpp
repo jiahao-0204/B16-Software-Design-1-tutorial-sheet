@@ -36,6 +36,7 @@
  * 
  * 
  * 
+ * 
  * ? (c) Test a real implementation to verify your answer.
  * 
  * implementation supports answer given
@@ -53,6 +54,33 @@
  * for doit2, all parts will be stored in the activation record.
  * 
  */
+
+
+
+
+
+
+
+
+ /** 
+ * if an object is passed as its parent class
+ * 
+ * - we can only use interface defined in the parent class, we have 
+ *   lost access to all interface/property defined by the children 
+ *   class
+ * 
+ * - if passed by value, all children class is lost
+ * - if passed by reference, content in the children class is kept, 
+ *   but only accessible if corresponding parent class interface is 
+ *   labeled virtual
+ */
+
+
+
+
+
+
+
 
 #include <iostream>
 #include <string>
